@@ -14,6 +14,17 @@
         </div>
         <div role="tabpanel" id="tabpanel-1" data-active="true" aria-label="Account Tabpanel">
             <p class="tabpanel-instruction">Make changes to your account here. Click save when you're done.</p>
+            <form method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="txt" id="name" value="John adam"/>
+                </div>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" value="@johnadam00"/>
+                </div>
+                <button type="submit">save changes</button>
+            </form>
         </div>
         <div role="tabpanel" id="tabpanel-3" data-active="false" aria-label="Password Tabpanel">
             <p class="tabpanel-instruction">Change your password here. After saving, you'll be logged out</p>
