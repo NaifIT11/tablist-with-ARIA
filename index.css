@@ -26,10 +26,21 @@ button{
 div[role="tablist"]{
     display: flex;
     width: 100%;
-    > button{
+    > button[role="tab"]{
         flex: 1;
     }
 }
 
 
 
+div[role="tabpanel"]{
+    padding: 1rem;
+}
+
+[data-active="true"]{
+    display: block;
+}
+
+[data-active="false"]{
+    display: none;
+}
