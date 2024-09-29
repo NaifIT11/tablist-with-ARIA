@@ -37,10 +37,10 @@ div[role="tabpanel"]{
     padding: 1rem;
 }
 
-[data-active="true"]{
+div[data-active="true"]{
     display: block;
 }
 
-[data-active="false"]{
+div[data-active="false"]{
     display: none;
 }
