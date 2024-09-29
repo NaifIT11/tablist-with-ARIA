@@ -7,6 +7,8 @@
 
 button{
     cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 
 
@@ -26,8 +28,16 @@ button{
 div[role="tablist"]{
     display: flex;
     width: 100%;
+    border-bottom: 1px solid rgb( 0 0 0 / 0.8);
     > button[role="tab"]{
         flex: 1;
+        &:active{
+            outline: 2px solid;
+        }
+        padding-block: 1rem;
+        &[data-active='true']{
+            outline: 2px solid;
+        }
     }
 }
 
