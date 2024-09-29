@@ -53,6 +53,7 @@ div[role="tablist"]{
     border-bottom: 1px solid rgb( 0 0 0 / 0.8);
     > button[role="tab"]{
         flex: 1;
+        font-size: 1rem;
         &:active{
             border-bottom: 2px solid var(--clr-primary);
         }
