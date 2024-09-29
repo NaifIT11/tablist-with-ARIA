@@ -8,7 +8,16 @@
 </head>
 <body>
     <div class="center">
-        hello
+        <div role="tablist">
+            <button role="tab" id="tab-1" data-active="true" aria-controls="tabpanel-1" aria-selected="true">Account</button>
+            <button role="tab" id='tab-2' aria-controls="tabpanel-2" aria-selected="false">password</button>
+        </div>
+        <div role="tabpanel" id="tabpanel-1" data-active="true" aria-label="Account Tabpanel">
+            Account Content
+        </div>
+        <div role="tabpanel" id="tabpanel-3" data-active="false" aria-label="Password Tabpanel">
+            Password Content
+        </div>
     </div>
 </body>
 </html>
