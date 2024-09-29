@@ -15,11 +15,21 @@ button{
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    width: 50%;
+    width: 40%;
     @media(width <= 700px){
         width: 80%;;
     }
-    padding: 1rem;
     border: 1px solid;
     border-radius: 0.25rem;
 }
+
+div[role="tablist"]{
+    display: flex;
+    width: 100%;
+    > button{
+        flex: 1;
+    }
+}
+
+
+
