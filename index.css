@@ -80,7 +80,8 @@ form{
 }
 
 button[type="submit"]{
-    padding-block: 1rem;
+    padding: 0.625rem 1rem;
     border: 1px solid;
     border-radius: 0.25rem;
+    align-self: end;
 }
